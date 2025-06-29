@@ -1,1 +1,1 @@
-console.log('Test logic running');
+console.log('InnerTypes full test running');
