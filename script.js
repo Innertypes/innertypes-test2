@@ -4,22 +4,26 @@ const mbtiQuestions = [
   { text: "You prefer group activities over solitary tasks.", axis: "EI", value: "E" },
   { text: "You often reflect deeply before speaking.", axis: "EI", value: "I" },
   { text: "You speak up quickly in group settings.", axis: "EI", value: "E" },
+
   { text: "You focus more on facts than possibilities.", axis: "SN", value: "S" },
   { text: "You enjoy exploring abstract concepts.", axis: "SN", value: "N" },
   { text: "You trust past experiences more than gut feelings.", axis: "SN", value: "S" },
   { text: "You frequently imagine future possibilities.", axis: "SN", value: "N" },
   { text: "You notice small details that others miss.", axis: "SN", value: "S" },
+
   { text: "You value logic over emotions in decisions.", axis: "TF", value: "T" },
   { text: "You avoid conflict to preserve harmony.", axis: "TF", value: "F" },
   { text: "You remain objective even in personal situations.", axis: "TF", value: "T" },
   { text: "You’re quick to empathize with others’ feelings.", axis: "TF", value: "F" },
   { text: "You prioritize fairness over personal needs.", axis: "TF", value: "T" },
+
   { text: "You like to make decisions early.", axis: "JP", value: "J" },
   { text: "You prefer to keep your options open.", axis: "JP", value: "P" },
   { text: "You use to-do lists to stay on track.", axis: "JP", value: "J" },
   { text: "You often change plans spontaneously.", axis: "JP", value: "P" },
   { text: "You work best with structure and deadlines.", axis: "JP", value: "J" }
 ];
+
 const mbtiScores = {
   E: 0, I: 0,
   S: 0, N: 0,
